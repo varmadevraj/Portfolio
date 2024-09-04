@@ -14,16 +14,6 @@ const Projects_data = [
         p_name:"Counting Numbers",
         p_desc:"In this project, number count will be increased, decreased or reset after clicking the buttons . . ."
     },
-    {
-        p_no:"04",
-        p_name:"porfolio",
-        p_desc:"This project contains about the details of my proifile..."
-    },
-    {
-        p_no:"05",
-        p_name:"porfolio",
-        p_desc:"This project contains about the details of my proifile..."
-    },
 ]
 
 export default Projects_data;
