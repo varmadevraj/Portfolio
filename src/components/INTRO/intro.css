@@ -50,6 +50,10 @@
     border-radius: 2rem;
     border-color: green;
     cursor: pointer;
+    width: 12%;
+    font-size: large;
+    font-weight: bold;
+
 }
 .btn:hover{
     background: yellow;
