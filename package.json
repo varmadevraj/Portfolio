@@ -4,7 +4,6 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://varmadevraj.github.io/Portfolio",
-
   "scripts": {
     "serve": "vite preview",
     "dev": "vite",
