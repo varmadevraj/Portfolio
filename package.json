@@ -1,15 +1,16 @@
 {
-  "homepage": "https://varmadevraj.github.io/Portfolio",
   "name": "first-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://varmadevraj.github.io/Portfolio",
+
   "scripts": {
     "serve": "vite preview",
     "dev": "vite",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "build": "vite build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
