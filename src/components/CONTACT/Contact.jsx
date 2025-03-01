@@ -1,10 +1,9 @@
 import React, { useRef } from 'react';
 import './contact.css';
-import Instagram from '../../assets/instagram.png';
-import youtube from '../../assets/youtube.png';
 import Github from '../../assets/Github.png';
 import Linkedin from '../../assets/Linkedin.png';
 import emailjs from '@emailjs/browser';
+import { Link } from 'react-router-dom';
 
 const Contact = () => {
   const form = useRef();
@@ -32,10 +31,8 @@ const Contact = () => {
                 <textarea className='msg' name="message"  rows="5" placeholder='Your Message'></textarea>
                 <button type='submit' value='send' className="submitBtn">Submit</button>
                 <div className="links">
-                    <img src={Instagram} alt="" className="link" />
-                    <img src={youtube} alt="" className="link" />
-                    <img src={Github} alt="" className="link1" />
-                    <img src={Linkedin} alt="" className="link1" />
+                    <Link to = 'https://github.com/varmadevraj'><img src={Github} alt="" className="link1" /></Link>
+                    <Link to = 'https://www.linkedin.com/in/varma-devraj-gandikota-1141a6231/'><img src={Linkedin} alt="" className="link1" /></Link>
                 </div>
             </form>
         </div>

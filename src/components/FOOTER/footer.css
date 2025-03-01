@@ -8,3 +8,10 @@
     font-weight: 300;
     font-size: small;
 }
+
+.myDetails{
+    gap: 2rem;
+    display: flex;
+    flex-direction:row;
+    font-weight: 200
+}

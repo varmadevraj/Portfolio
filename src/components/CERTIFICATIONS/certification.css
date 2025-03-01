@@ -1,0 +1,31 @@
+.certificateContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+    margin: 100px;
+}
+
+.certificationTitle{
+    font-size: 50px;
+    margin-bottom: 1rem;
+} 
+
+.certificationName{
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+}
+
+.certificationName:visited{
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+}
+
+.certificationName:hover{
+    font-size: 30px;
+    color: yellow;
+}

@@ -22,11 +22,13 @@
     flex-direction: column;
     justify-content: center;
     gap: 1px;
-    padding: 40px;
+    padding: 20px;
     border-radius: 10px;
     border: 2px solid white;
     transition: 0.4s;
     cursor: pointer;
+    width: 250px;
+    height: 200px;
 }
 
 .projects-container{
@@ -36,15 +38,11 @@
     margin-bottom: 10px;
 }
 
-.projects-format h3{
-    font-size: 28px;
-    font-weight: 600;
-    margin-top: -0.5px;
-}
+
 
 .projects-format h2{
-    font-size: 38px;
-    font-weight: 800;
+    font-size: 30px;
+    font-weight: 600;
     background: linear-gradient(270deg,#DF8908 50%, #B415FF 100%);
     background-clip: text;
     -webkit-background-clip: text;
